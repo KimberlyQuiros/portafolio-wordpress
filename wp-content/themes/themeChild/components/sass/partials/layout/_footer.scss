@@ -1,0 +1,51 @@
+
+footer{
+  z-index: 0;
+  position: relative;
+  .contact-item{
+    padding: 60px 0 90px;
+    .container{
+      .row {
+        margin:0 auto;
+        text-align: center;
+        .col-md-6{
+          text-align: center;
+          padding:10px;
+          @media(min-width: 992px){
+            padding:0;
+          }
+          .border-div{
+            width: 50%;
+            margin: 0 auto;
+            padding:30px;
+            position: relative;
+            overflow: hidden;
+            @media(max-width: 991px){
+              width: 100%;
+            }
+            @media(max-width: 767px){
+              margin-top: 25px;
+            }
+            i{
+              font-size: 110px;
+              position: absolute;
+              top: -14px;
+              left: -12px;
+              z-index: 1;
+            }
+            p{
+              position: relative;
+              z-index: 2;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .rrss-content{
+    background-color: $turqueza;
+    text-align: center;
+    padding: 10px 0;
+  }
+}

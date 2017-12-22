@@ -1,0 +1,30 @@
+/*----------Indice-------------
+		#partials
+		#modules
+
+	Importar-las-hojas-scss
+*/
+
+/*
+ * MDB
+ */
+@import "bootstrap";
+@import "font-awesome/font-awesome";
+
+/*
+ * Partials
+ */
+@import "partials/normalize";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/globals";
+
+/*
+ * Layout
+ */
+
+
+/*
+ * Skin
+ */
+ // @import "partials/skin/header";

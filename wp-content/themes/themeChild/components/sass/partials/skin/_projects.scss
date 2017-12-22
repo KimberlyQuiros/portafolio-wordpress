@@ -1,0 +1,40 @@
+/*
+ * Skin/projects
+ */
+.projects{
+  h2{
+    strong{
+      color: $turqueza;
+    }
+  }
+  .card{
+    h3{
+      color: $turqueza;
+    }
+    .card-btn{
+      @media(min-width:768px){
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+      }
+      a{
+        background-color: $black;
+        color: $white;
+        &:hover, &:active, &:focus{
+          color: $white!important;
+          background-color: $turqueza!important;
+        }
+      }
+    }
+  }
+
+    .btn-proyectos{
+      background-color: $black;
+      color: $white;
+      &:hover, &:active, &:focus{
+        color: $white!important;
+        background-color: $turqueza!important;
+      }
+    }
+
+}

@@ -1,0 +1,39 @@
+/*
+ * layout/projects
+ */
+.projects{
+  padding: 80px 0;
+  .content-title{
+    margin-bottom: 40px;
+    h2{
+      text-align: right;
+    }
+    p{
+      margin-top: 25px;
+      @media(max-width: 991px){
+        text-align: right;
+      }
+    }
+  }
+  .card{
+    margin-bottom: 40px;
+    position: relative;
+    @media(min-width:768px){
+      height: 450px !important;
+    }
+  }
+  .card .lazy {
+    height: 220px!important;
+  }
+  .card-content{
+    p{
+      span{
+        color: $turqueza;
+      }
+    }
+  }
+  .content-btn{
+    margin: 0 auto;
+    text-align: center;
+  }
+}

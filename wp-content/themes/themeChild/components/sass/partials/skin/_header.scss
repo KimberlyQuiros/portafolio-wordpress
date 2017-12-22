@@ -1,0 +1,42 @@
+/*
+ *  Skin/header
+ */
+
+header{
+  background-color: $black;
+  .caption{
+    h1, h2{
+      color: $white;
+    }
+    h2 span{
+      color: $turqueza;
+    }
+  }
+  // navbar
+  .navbar .navbar-nav > li > a {
+    color: $white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: $title;
+    @media(max-width: 767px){
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 22px;
+      text-align: center;
+    }
+    &:hover, &:focus, &:active{
+      color: $blue;
+      @media(max-width: 767px){
+        color: $turqueza;
+      }
+    }
+  }
+
+  .navbar{
+    background-color: $turqueza;
+  }
+  .fixed{
+    background-color: $turqueza;
+  }
+}

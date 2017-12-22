@@ -1,0 +1,25 @@
+/*
+ * Skin/skills
+ */
+ .skills{
+   background-color: $black;
+   .content-title{
+     h2{
+       color: $white;
+     }
+   }
+   .border-solid{
+     border:1px solid $white;
+     .fa-cogs,
+     .fa-code,
+     .fa-paint-brush{
+       color: $icon-color;
+     }
+     li{
+       color: $white;
+     }
+   }
+   ul li{
+     font-size: 16px;
+   }
+ }

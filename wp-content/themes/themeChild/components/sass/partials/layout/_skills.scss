@@ -1,0 +1,29 @@
+/*
+ * Skin/about
+ */
+.skills{
+  padding: 125px 0;
+  .content-title{
+    h2{
+      margin-top: 0;
+    }
+  }
+  .border-solid{
+    padding:20px;
+    overflow: hidden;
+    position: relative;
+    @media(max-width: 991px){
+      // height: 160px;
+      margin: 15px 0;
+    }
+    .fa-cogs,
+    .fa-code,
+    .fa-paint-brush{
+      position: absolute;
+      left: -35px;
+      font-size: 150px;
+      top: -28px;
+    }
+
+  }
+}

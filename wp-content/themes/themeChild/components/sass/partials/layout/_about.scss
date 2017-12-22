@@ -1,0 +1,27 @@
+/*
+ * Layout/about
+ */
+
+.about{
+  padding: 80px 0;
+  @media(min-width: 992px){
+    height: 530px;
+  }
+  .content-img{
+    position: relative;
+    img:last-child{
+      @media(min-width: 992px){
+        position: absolute;
+        right: 15px;
+        top: 30%;
+      }
+    }
+    img{
+      @media(max-width: 991px){
+        width: 50%;
+        display: inline-block;
+        float: left;
+      }
+    }
+  }
+}

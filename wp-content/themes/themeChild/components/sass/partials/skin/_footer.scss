@@ -1,0 +1,29 @@
+/*
+ * Skin/contacto
+ */
+footer{
+  .contact-item{
+      background-color: $black;
+  }
+  h2{
+    color: $white;
+  }
+  .border-div{
+    border: 1px solid $white;
+    i{
+      color: $icon-color!important;
+    }
+    p{
+      color: $white!important;
+    }
+  }
+  .rrss-content{
+    .btn-floating{
+      background-color: $black;
+      i{
+        font-size: 23px;
+      }
+    }
+  }
+
+}
